@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de formulario</title>
+</head>
+<body>
+    <h1>Cadastro</h1>
+    <form action="/cadastro" method="post">
+        <label>Nome: <input type="text" name="nome" size="30" placeholder="Digite seu nome" required autofocus ></label><br>
+        <label for="sobrenome">Sobrenome</label><input type="text" name="sobrenome" size="30"  id="sobrenome"><br>
+        <label>Idade: <input type="number" name="idade"></label><br>
+        <label>Password: <input type="password" name="senha" size="30"  maxlength="10" minlength="5"></label><br>
+        <label>Escolha uma data: <input type="date" name="data"></label><br>
+        <label>Ecolha uma cor: <input type="color" name="color"></label><br>
+        <label>Escolha um arquivo: <input type="file"></label><br>
+        <label>Concordo com os termos: <input type="checkbox" name="concordo" required></label><br>
+        <div>Tem certeza que ainda quer ser programador?
+        <label>Sim
+         <input type="radio" name="programador" value="sim" required>
+        </label>
+        <label>Não
+            <input type="radio" name="programador" value="nao" required>
+        </label></div><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
