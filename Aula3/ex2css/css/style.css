@@ -1,0 +1,16 @@
+body{
+    background: url(https://img.freepik.com/fotos-gratis/fundo-preto-abstrato-da-grade-digital_53876-97647.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: #fff;
+}
+
+p{
+    color: gray;
+}
+
+#p2{
+    color: white;
+}
