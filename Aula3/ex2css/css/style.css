@@ -14,3 +14,16 @@ p{
 #p2{
     color: white;
 }
+
+.parag_amarelo{
+    color: yellow;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.borda{
+    border: 2px dashed
+    orange
+}
