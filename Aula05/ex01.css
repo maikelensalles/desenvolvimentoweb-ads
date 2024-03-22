@@ -1,0 +1,11 @@
+.p{
+    border: 2px solid blue;
+
+}
+#p2{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
